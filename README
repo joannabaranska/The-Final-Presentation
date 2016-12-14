@@ -1,0 +1,18 @@
+HARRY POTTER PROPHECY QUIZ 
+
+Authors: Cecilie Wig & Joanna Baranska
+Date: 14/12-2016  
+
+	Quiz designed as a webpage application with the inspiration from Kahoot and the Harry Potter books by J.K. Rowling. Made with inspiration from Sam Solomon Prabu's Quiz Application in JS-video on Youtube: https://www.youtube.com/watch?v=1za7xsjsUAA and https://www.youtube.com/watch?v=EcucHCNPT1Y&spfreload=1. 
+
+	The project consist of following libraries: 
+		Quiz.html (setup of the webpage)
+		Quiz.css (the settings of the program)
+		Question.js (the questions used in the quiz)
+		Quiz-script.js (the applications of the program)
+
+The program Quiz.html is opened in a random browser (works perfectly in both Safari and Chrome) and thereafter the questions are answered. 
+
+
+
+		

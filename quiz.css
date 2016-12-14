@@ -1,0 +1,80 @@
+/* This sheet contains the styling choices of the website containing our quiz
+It contains color-codes, the measurements for the different elements, the used font, the size of it etc. */
+
+body{
+	font-family: 'Aref Ruqaa', serif; /* The font used on the website, which was found on Google Fonts */
+	background: #740001; 
+}
+
+.container{ /* The container that contains the questions, answers and next-button */ 
+	width: 1000px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	background: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border: 1px solid #000000;
+	box-shadow: 0 0 8px 3px #d3a625;
+}
+
+.title{ /* The title of the quiz - Harry Potter Prophecy Quiz */
+	padding-top: 20px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.question{ /* The container of the question */
+	padding: 20px;
+	font-size: 22px;
+	background: #ffcc33;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	color: #000000;
+}
+
+.option{ /* The contaioner of the different options/answers */ 
+	width: 470px;
+	display: inline-block;
+	padding: 10px 0 10px 15px;
+	vertical-align: middle;
+	background: rgba(255, 255, 255, 0.5);
+	margin: 10px 0 10px 10px;
+	color: #000000;
+	border-radius: 20px;
+}
+
+.option:hover{ /* Makes the color shift, when pressing on one of the options */
+	background: #eeba30;
+	color: #ae0001;
+}
+
+.next-btn{ /* Creating the next-button */
+	border: none;
+	outline: none;
+	background: #ae0001;
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	cursor: pointer;
+	float: right;
+	margin: 10px;
+}
+
+.next-btn:hover{ /* Makes the color shift, when pressing the next-button */
+	background: #eeba30;
+	color: #ae0001;
+}
+
+.result{ /* The container that comes up in the end of the quiz with the result */ 
+	height: 100px;
+	text-align: center;
+	font-size: 75px;
+}
+
+.option input:checked .option{ 
+	background: #d3a625;
+	color: #000;
+}
